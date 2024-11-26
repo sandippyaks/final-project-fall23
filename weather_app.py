@@ -3,7 +3,8 @@ Weather App to check the current weather based on zip code
 """
 from city_weather import CityWeather
 import requests
-# from pprint import pprint as pp
+from pprint import pprint as pp
+from weather_api_key import API_KEY as MY_API_KEY
 
 #Set your API Key
 API_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'  # TODO: Update with your API key
